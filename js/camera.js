@@ -34,7 +34,6 @@ botaoEnviarFoto.addEventListener('click', () => {
     converteRetorno.imagem = imagemURL;
     
     localStorage.setItem('cadastro',JSON.stringify(converteRetorno));
-    console.log('coco');
     window.location.href ='./abrir-conta-form-3.html';
 })
 
